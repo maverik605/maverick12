@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# SQLite database (local + volume)
+data/*.db
+data/*.db-*
+*.sqlite
+
+# Uploaded media (keep the placeholder)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Railway / Vercel local artifacts
+.vercel
+.railway
+
+# Misc
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db

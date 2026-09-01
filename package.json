@@ -1,0 +1,26 @@
+{
+  "name": "maverick-website",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "create-admin": "node scripts/create-admin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "ws": "^8.21.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
